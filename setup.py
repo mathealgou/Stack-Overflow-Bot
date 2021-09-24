@@ -1,7 +1,7 @@
 import questionGenerator
 import tweepy
-import schedule
-import time
+# import schedule
+# import time
 
 auth = tweepy.OAuthHandler("OTtzalHeqI08xE4I78REKJk9O",
                            "PUdJUYcsbuh74uI4xgaQzPDUT77Qgvw85Hs3dwSEKBkBXGOTkW")
@@ -25,8 +25,4 @@ def tweet():
     print(newTweetText)
 
 
-schedule.every(6).hours.do(tweet)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+tweet()
