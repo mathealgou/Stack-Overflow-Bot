@@ -3,11 +3,11 @@ import tweepy
 # import schedule
 # import time
 
-auth = tweepy.OAuthHandler("OTtzalHeqI08xE4I78REKJk9O",
-                           "PUdJUYcsbuh74uI4xgaQzPDUT77Qgvw85Hs3dwSEKBkBXGOTkW")
+auth = tweepy.OAuthHandler("apiKey",
+                           "apiKey")
 
-auth.set_access_token("2338774166-Z3sGOyb7XrYw3eHVBascQpSd9jB4K4EbuAbBxDA",
-                      "3aKb5XJHCkNsOtGYAnlkwRrsqzu1u1LmFuvB4aLCaJWTc")
+auth.set_access_token("apiKey",
+                      "apiKey")
 
 api = tweepy.API(auth)
 
